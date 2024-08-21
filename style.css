@@ -68,7 +68,7 @@ button {
     color: white;
     font-weight: bold;
     font-size: 14px;
-    border-radius: 3px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -94,11 +94,19 @@ button:hover {
     color: #8e8e8e;
 }
 
+.facebook {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
 .login-with-facebook {
     color: #385185;
     font-weight: bold;
     text-decoration: none;
-    margin-bottom: 10px;
+
 }
 
 .login-with-facebook:hover {
