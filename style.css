@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fafafa;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 935px;
+    width: 100%;
+    height: 100%;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.form-section {
+    width: 350px;
+}
+
+.form-container {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 175px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #0095f6;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007bb5;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.separator .line {
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.separator p {
+    margin: 0 20px;
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.login-with-facebook {
+    color: #385185;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.login-with-facebook:hover {
+    text-decoration: underline;
+}
+
+.forgot-password {
+    font-size: 12px;
+    color: #00376b;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.signup-container {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    text-align: center;
+}
+
+.signup-container p {
+    font-size: 14px;
+}
+
+.signup-container a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-container a:hover {
+    text-decoration: underline;
+}
+
+.app {
+    padding: 30px 30px 0px 30px;
+}
+
+.app p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.store {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.micro{
+    width: 100px;
+    height: auto;
+}
+
+.play{
+    width: 130px;
+    height: auto;
+}
